@@ -1,0 +1,8 @@
+python-binance
+pandas
+numpy
+fastdtw
+matplotlib
+python-dotenv
+scipy
+requests

@@ -1,0 +1,9 @@
+.env
+
+# Veritabanı dosyalarını yoksay
+*.db
+*.sqlite3
+
+# Data klasöründeki her şeyi yoksay (ama klasör yapısını koru)
+data/*
+!data/.gitkeep
