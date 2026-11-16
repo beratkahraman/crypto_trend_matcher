@@ -1,9 +1,27 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
 
-# Veritabanı dosyalarını yoksay
+# Secrets
+.env
+*.env
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Project
 *.db
 *.sqlite3
-
-# Data klasöründeki her şeyi yoksay (ama klasör yapısını koru)
 data/*
 !data/.gitkeep

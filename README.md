@@ -53,7 +53,7 @@ Projeyi yerel makinenize veya sunucunuza (AWS/VPS) kurmak için adımları izley
 
 ```bash
 # Repoyu klonlayın
-git clone [https://github.com/beratkahraman/crypto_trend_matcher.git](https://github.com/beratkahraman/crypto_trend_matcher.git)
+git clone https://github.com/beratkahraman/crypto_trend_matcher.git
 cd crypto_trend_matcher
 
 # Sanal ortam oluşturun (Önerilen)
